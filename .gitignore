@@ -1,0 +1,67 @@
+# Wordpress - ignore core, configuration, examples, uploads and logs.
+# https://github.com/github/gitignore/blob/main/WordPress.gitignore
+
+# Core
+/index.php
+/license.txt
+/readme.html
+/wp-*.php
+/xmlrpc.php
+/wp-admin/
+/wp-includes/
+/import/
+/design/
+/database/
+/cgi-bin
+/.quarantine
+/.well-known
+
+# Configuration
+wp-config.php
+
+/wp-content/*
+# Themes: include the directory, exclude all subdirectories except those specified
+!/wp-content/themes
+/wp-content/themes/*
+!/wp-content/themes/twentytwentyfour
+
+/**/css-output
+
+/wp-content/languages
+#/wp-content/languages/*
+#!/wp-content/languages/themes
+#/wp-content/languages/themes/*-backup-*
+
+# Plugins: (include only custom plugins)
+!/wp-content/mu-plugins
+
+# Uploads
+!/wp-content/uploads
+/wp-content/uploads/*
+
+# Log files
+*.log
+/.tmb
+
+# htaccess
+/.htaccess
+
+/.vscode
+
+
+/sql
+/images/*
+
+# Dependencies & build tooling
+node_modules/
+vendor/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# OS cruft
+.DS_Store
+Thumbs.db
+desktop.ini
