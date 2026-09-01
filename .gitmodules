@@ -1,3 +1,7 @@
 [submodule "wp-content/plugins/advanced-custom-database"]
 	path = wp-content/plugins/advanced-custom-database
 	url = https://github.com/adot-github/wp-adot-sys-components.git
+[submodule "wp-content/themes/twentytwentyfour/db-custom/event-registration"]
+	path = wp-content/themes/twentytwentyfour/db-custom/event-registration
+	url = https://github.com/adot-github/event-o-mat.git
+	branch = new-developments
