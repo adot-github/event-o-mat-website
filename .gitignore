@@ -66,3 +66,5 @@ vendor/
 Thumbs.db
 desktop.ini
 *.lnk
+# Lokale Claude-Code-Einstellungen
+/.claude/
